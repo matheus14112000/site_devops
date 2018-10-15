@@ -243,9 +243,8 @@ ol{
     float: left;
     text-align: center;
 	color: white;
-	font-family: 'Arial', sans-serif;
-    
 }
+
 .ADS{
     background-color: #708090;
     margin: 10px 50px; 
@@ -255,10 +254,21 @@ ol{
     border: 1px solid rgb(6, 41, 240);
     float: right;
     text-align: center;
-	color: white;
-	font-family: 'Arial', sans-serif;
-    
+	color: white;    
 }
+
+.ADS_ead{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: left;
+    text-align: center;
+	color: white;    
+}
+
 .SI{
     background-color: #708090;
     margin: 10px 50px; 
@@ -268,10 +278,9 @@ ol{
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
-	color: white;
-	font-family: 'Arial', sans-serif;
-    
+	color: white;    
 }
+
 .RC{
     background-color: #708090;
     margin: 10px 50px; 
@@ -282,9 +291,8 @@ ol{
     float: right;
     text-align: center;
 	color: white;
-	font-family: 'Arial', sans-serif;
-    
 }
+
 .JD{
     background-color: #708090;
     margin: 10px 50px; 
@@ -295,9 +303,8 @@ ol{
     float: left;
     text-align: center;
 	color: white;
-	font-family: 'Arial', sans-serif;
-    
 }
+
 .PG{
     background-color: #708090;
     margin: 10px 50px; 
@@ -308,9 +315,8 @@ ol{
     float: right;
     text-align: center;
 	color: white;
-	font-family: 'Arial', sans-serif;
-    
 }
+
 .PM{
     background-color: #708090;
     margin: 10px 50px; 
@@ -320,10 +326,9 @@ ol{
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
-	color: white;
-	font-family: 'Arial', sans-serif;
-    
+	color: white;   
 }
+
 .EC{
     background-color: #708090;
     margin: 10px 50px; 
@@ -334,9 +339,8 @@ ol{
     float: right;
     text-align: center;
 	color: white;
-	font-family: 'Arial', sans-serif;
-    
 }
+
 .GTI{
     background-color: #708090;
     margin: 10px 50px; 
@@ -347,9 +351,8 @@ ol{
     float: left;
     text-align: center;
     color: white;
-	font-family: 'Arial', sans-serif;
-    
 }
+
 .BD{
     background-color: #708090;
     margin: 10px 50px; 
@@ -360,38 +363,52 @@ ol{
     float: right;
     text-align: center;
 	color:white;
-	font-family: 'Arial', sans-serif;
-    
 }
+
 :hover.ADM{
     background-color: rgb(2, 2, 179);
 }
+
 :hover.ADS{
     background-color: rgb(2, 2, 179);
 }
+
+:hover.ADS_ead{
+    background-color: rgb(2, 2, 179);
+}
+
 :hover.SI{
     background-color: rgb(2, 2, 179);
 }
+
 :hover.RC{
     background-color: rgb(2, 2, 179);
 }
+
 :hover.JD{
     background-color: rgb(2, 2, 179);
 }
+
 :hover.PG{
     background-color: rgb(2, 2, 179);
 }
+
 :hover.PM{
     background-color: rgb(2, 2, 179);
-}:hover.EC{
+}
+
+:hover.EC{
     background-color: rgb(2, 2, 179);
 }
+
 :hover.GTI{
     background-color: rgb(2, 2, 179);
 }
+
 :hover.BD{
     background-color: rgb(2, 2, 179);
 }
+
 .nada{
     margin: 10px 50px; 
     padding: 10px;
@@ -424,4 +441,42 @@ ol{
     height: 400px;
     border-radius: 3px;
     float: left;
+}
+.coordenador_adm{
+    margin: 10px 100px 80px;
+    padding: 20px 10px;
+    width: 1180px;
+    height: 700px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.descricaocoordenador_adm{
+    text-align: left;
+    margin: 20px 10px; 
+    padding: 10px;
+    width: 640px;
+    height: 550px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.coordenador_jd{
+    margin: 10px 100px 80px;
+    padding: 20px 10px;
+    width: 1180px;
+    height: 850px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.descricaocoordenador_jd{
+    text-align: left;
+    margin: 20px 10px; 
+    padding: 10px;
+    width: 640px;
+    height: 700px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
 }
